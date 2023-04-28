@@ -1,0 +1,239 @@
+/* Kyla Fiona Frances L. Lopez */
+/* Matthew Raganot */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* container */
+.container {
+  position: relative;
+  width: 70vw;
+  height: 80vh;
+  background: #FFFF;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.3), 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+/* LOGIN TITLE */
+.login-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* LOGIN FORM */
+.login-form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #4285f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  
+}
+
+/* REGISTER TITLE */
+.register-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* REGISTER FORM */
+.registration-form {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #4285f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  transition: display 500ms;
+}
+
+/* INPUT FIELDS */
+input[type=text], [type=password], [type=email]{
+  width: 20rem;
+  padding: 12px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border-width: 1.5px;
+  border-color: #F1C40F;
+  background-color: white;
+}
+
+/* LOGIN && REGISTER BUTTONS */
+.login button, .register button{
+  width: 20rem;
+  padding: 12px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border-width: 1.5px;
+  border-color: #F1C40F;
+  background-color: #F1C40F;
+}
+
+.login button:hover, .register button:hover{
+  font-size: .9rem;
+  background-color: #facb11;
+  cursor: pointer;
+}
+
+/* SIGN UP & SIGN IN BUTTONS */
+button {
+  width: 15rem;
+  padding: 12px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border-width: 1.5px;
+  border-color: white;
+  background-color: transparent;
+}
+
+button:hover{
+  font-size: 1rem;
+  background-color: #facb11;
+  cursor: pointer;
+  border-color: #facb11;
+}
+
+
+/* SOCIALS */
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin: 0 5px; 
+  color: white;
+}
+
+.social-icons:hover {
+  color: #F1C40F;
+  border-color: #F1C40F;
+}
+
+/* RIGHT PANEL */
+.right-panel {
+  position: absolute;
+  padding-top: 100px;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+
+  background-image: url("dog1.jpg");
+  background-size: cover;
+  background-position: bottom;
+  
+}
+
+.right-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white
+}
+
+.right-button button {
+  color: black;
+}
+
+.right-panel button:hover {
+  background-color: #4285f4;
+  color: white;
+  border: #4285f4;
+}
+
+/* LEFT PANEL */
+.left-panel {
+  position: absolute;
+  padding-top: 50px;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: white;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+
+  background-image: url("https://images.unsplash.com/photo-1534551767192-78b8dd45b51b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.left-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.left-button button {
+  color: black;
+}
+
+.left-button button:hover {
+  background-color: #4285f4;
+  color: white;
+  border: #4285f4;
+}
+
+
+
+
+
+
+
